@@ -2,7 +2,7 @@ require('dotenv').config();
 
 module.exports = {
   // MongoDB Configuration
-  mongodbUri: process.env.MONGODB_URI || 'mongodb://localhost:27017/list39',
+  mongodbUri: process.env.MONGODB_URI || 'mongodb://localhost:27017/nanda_chat',
   
   // Server Configuration
   port: process.env.PORT || 3000,
